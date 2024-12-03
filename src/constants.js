@@ -1,0 +1,6 @@
+const CONTAINER_NAME_PREFIX = 'my-drive-os-';
+
+const MAX_CONTAINER_SIZE = 1 * 1024 * 1024; 
+
+
+module.exports = { CONTAINER_NAME_PREFIX, MAX_CONTAINER_SIZE };
