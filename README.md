@@ -14,16 +14,20 @@ Ensure the following tools are installed on your system:
 ```bash
 git clone https://github.com/Jmendezzz/my-drive-os.git
 ```
-### 2. Install Node dependencies
+### 2. Enter to the project root
+```
+cd /my-drive-os.git
+```
+### 3. Install Node dependencies
 ```bash
 npm install
 ```
-### 3. Install Alpine Docker Image
+### 4. Install Alpine Docker Image
 ```bash
 docker pull alpine
 ```
 
-### 4. Open the app
+### 5. Open the app
 ```bash
 npm start
 ```
